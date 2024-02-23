@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+select {
+  border: none;width: auto;
+  outline: none;
+  color: grey;
+}
+
+.items {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.p-center {
+  padding: 7px;
+}
+
+.button-1 {
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  padding: 11px 15px 11px 15px;
+  font-size: 14px;
+}
+.button-2 {
+  border: none;
+  outline: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  padding: 9px 25px 9px 25px;
+  font-size: 14px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.a-span {
+  color: orangered;
+  text-decoration: none;
+}
